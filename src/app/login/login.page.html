@@ -1,0 +1,29 @@
+<ion-content color="primary">
+
+  <ion-grid style="height: 100%" color="secondary">
+    
+    <ion-row justify-content-center align-items-center style="height: 100%">
+
+      <ion-row justify-content-center>
+        <h2>Vælg din POD provider</h2>
+      </ion-row>
+
+      <ion-row justify-content-center>
+        <ion-button expand="block" size="large" class="wide-btn" (click)="login('https://solid.community')">
+            Solid community
+        </ion-button>
+
+        <ion-button expand="block" size="large" class="wide-btn" (click)="login('https://inrupt.net/')">
+            Inrupt
+        </ion-button>
+
+        <ion-button expand="block" size="large" class="wide-btn">
+            Custom
+        </ion-button>
+      </ion-row>
+
+    </ion-row>
+    
+  </ion-grid>
+
+</ion-content>

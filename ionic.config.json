@@ -1,5 +1,7 @@
 {
-  "name": "rejselog2",
-  "integrations": {},
+  "name": "ionic-solid",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
